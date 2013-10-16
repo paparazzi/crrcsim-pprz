@@ -206,9 +206,9 @@ void T_TX_InterfaceMNAV::getInputData(TSimInputs* inputs)
     cnt_cmd_cnv[0] = ((float)((reverse & (uint8_t)0x01) ? 65536 - cnt_cmd[0] : cnt_cmd[0]) - 32768.0) / 65536.0; //FIXME: for some reason, MNAV sensor code uses (22418 - cnt_cmd) instead of (65536 - cnt_cmd)
     cnt_cmd_cnv[1] = ((float)((reverse & (uint8_t)0x02) ? 65536 - cnt_cmd[1] : cnt_cmd[1]) - 32768.0) / 65536.0; //FIXME: for some reason, MNAV sensor code uses (22418 - cnt_cmd) instead of (65536 - cnt_cmd)
     cnt_cmd_cnv[2] = (float)((reverse & (uint8_t)0x04) ? 65536 - cnt_cmd[2] : cnt_cmd[2]) / 65536.0; //FIXME: for some reason, MNAV sensor code uses (22418 - cnt_cmd) instead of (65536 - cnt_cmd)
-    inputs->elevator = -(cnt_cmd_cnv[1] - cnt_cmd_cnv[0]) / 2.0;
+    inputs->elevator = cnt_cmd_cnv[1]; //-(cnt_cmd_cnv[1] - cnt_cmd_cnv[0]) / 2.0;
     //inputs->rudder   =
-    inputs->aileron  = (cnt_cmd_cnv[1] + cnt_cmd_cnv[0]) / 2.0;
+    inputs->aileron  = cnt_cmd_cnv[0]; //(cnt_cmd_cnv[1] + cnt_cmd_cnv[0]) / 2.0;
     inputs->throttle = cnt_cmd_cnv[2];
 
     //fprintf(stderr, "[servo]: 0:0x%04hx 1:0x%04hx 2:0x%04hx reverse:0x%04hx\n\n", cnt_cmd[0], cnt_cmd[1], cnt_cmd[2], (uint16_t)reverse);

@@ -88,22 +88,33 @@ void BufferedCharDevice::cleanup( void )
 // read bytes into circular buffer (uses charDevice's maxInterval and wait)
 void BufferedCharDevice::read_into_buffer( void )
 {
-    int res, endspace;
-    
-    while( ( res = charDevice->read( /*ser_fd,*/ &circbuf[ circbufNext ], ( endspace = circbufSize - (int)circbufNext ) ) ) > 0 )
-    {
-        //fprintf( stderr, "read %d bytes\n", res );
-        assert( res >= 0 && res <= circbufSize );
-        assert( res <= endspace );
-        assert( (int)circbufNext + res <= circbufSize );
-        circbufNext += (uint8_t)res;
-        circbufLength += res;
-        if( circbufLength > circbufSize )
-        {
-            circbufStart = circbufNext;
-            circbufLength = circbufSize;
-        }
-        if( res < endspace )
-            break;
+    int res; //, endspace;
+
+    // skipping stupid circular buffer, we only need the latest command anyway
+    while( ( res = charDevice->read(circbuf, circbufSize) ) > 0 ) {
+      circbufLength = res;
+      circbufStart = 0;
+      //printf("read %d\n",res);
     }
+
+    //while( ( res = charDevice->read( /*ser_fd,*/ &circbuf[ circbufNext ], ( endspace = circbufSize - (int)circbufNext ) ) ) > 0 )
+    //{
+    //    //fprintf( stderr, "read %d bytes\n", res );
+    //    assert( res >= 0 && res <= circbufSize );
+    //    assert( res <= endspace );
+    //    assert( (int)circbufNext + res <= circbufSize );
+    //    circbufNext += (uint8_t)res;
+    //    circbufLength += res;
+    //    fprintf( stderr, "read %d bytes, endspace %d, next %d, length %d\nbuffer: ", res, endspace, circbufNext, circbufLength );
+    //    for (int i = 0; i < circbufSize; i++) fprintf(stderr, "%x ", (uint8_t)circbuf[i]);
+    //    fprintf(stderr,"\n");
+    //    if( circbufLength > circbufSize )
+    //    {
+    //        circbufStart = circbufNext;
+    //        circbufLength = circbufSize;
+    //    }
+    //    if( res < endspace )
+    //        break;
+    //    fprintf( stderr, "read end %d bytes, endspace %d, next %d, length %d\nbuffer: ", res, endspace, circbufNext, circbufLength );
+    //}
 }

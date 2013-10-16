@@ -84,7 +84,7 @@ int init_wind_data(char * filename)
 int ModelBasedScenery::init_wind_data(const char* filename)
 #endif
 {
-  CGAL::set_error_behaviour ( CGAL::CONTINUE); //CGAL failure behaviour
+  //CGAL::set_error_behaviour ( CGAL::CONTINUE); //CGAL failure behaviour
   wind_data = new WindData;
   Vertex_handle v;
   FILE *input = fopen(filename,"r");

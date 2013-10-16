@@ -16,5 +16,5 @@ link_directories      ( ${MOD_MATH_LINKDIRS} )
 add_executable       (quat_test quat_test.cpp )
 target_link_libraries(quat_test mod_math)
 
-add_executable       (m44_test m44_test.cpp)
-target_link_libraries(m44_test mod_math)
+#add_executable       (m44_test m44_test.cpp)
+#target_link_libraries(m44_test mod_math)

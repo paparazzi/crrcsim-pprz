@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<CRRCSim_airplane version="2">
+  <name>
+    <en>Fun-Jet Paparazzi</en>
+  </name>
+  <categories>
+    <category>Flying wings</category>
+  </categories>
+  <description>
+    <en>
+Modeled by AVL
+    </en>
+  </description>
+  <changelog>
+    <change>
+      <date>14/10/2013</date>
+      <author>Murat BRONZ</author>
+      <en>Created the model for Paparazzi AP</en>
+    </change>
+  </changelog>
+<aero version="1" units="1">
+<ref chord="0.23" span="0.8" area="0.184" speed="15.0" />
+<misc Alpha_0="0.0" eta_loc="0.25" CG_arm="0.1" span_eff="0.9113" />
+<m Cm_0="0.0" Cm_a="-0.207614" Cm_q="-1.862718" Cm_de="-0.249053000159" />
+<lift CL_0="0.2" CL_max="0.7" CL_min="-0.5" CL_a="4.027074" CL_q="5.109304" CL_de="0.635619926787" CL_drop="0.2" CL_CD0="0.2" />
+<drag CD_prof="0.02441" Uexp_CD="-0.5" CD_stall="0.2" CD_CLsq="0.01" CD_AIsq="0.0" CD_ELsq="0.0220022282349" />
+<Y CY_b="-0.33448" CY_p="0.078355" CY_r="0.127725" CY_dr="0.0" CY_da="-0.01615788636" />
+<l Cl_b="-0.056311" Cl_p="-0.285808" Cl_r="0.056332" Cl_dr="0.0" Cl_da="0.133617698552" />
+<n Cn_b="0.050992" Cn_p="-0.020191" Cn_r="-0.065585" Cn_dr="0.0" Cn_da="0.00630272162979" />
+</aero>
+  <config version="1">
+    <descr_long>
+      <en>Inertias measured experimentally, the Ixx was 0.007 but we have increased to 0.01 thinking about the additional damping which was not correctly handled during the experiment.</en>
+    </descr_long>
+    <descr_short>
+      <en>default</en>
+    </descr_short>
+     <mass_inertia version="1" units="1" Mass="0.6" I_xx="0.01"
+       I_yy="0.022" I_zz="0.025" I_xz="0" />
+    <sound version="1">
+      <sample filename="electric.wav" type="1" pitchfactor="0.002" maxvolume="1" />
+    </sound>
+    <power units="1">
+      <automagic F="8.89644" V="15.008599">
+        <battery throttle_min="0">
+          <automagic T="420" />
+          <shaft J="0" brake="1">
+            <propeller D="0.24384" H="0.170688" J="0" n_fold="5" />
+            <engine>
+              <automagic omega_p="2827" eta_opt="0.78" eta="0.7" />
+            </engine>
+          </shaft>
+        </battery>
+      </automagic>
+    </power>
+  </config>
+  <graphics version="1" model="funjet.ac">
+    <descr_long>
+      <en>Funjet AC, three hard points defined in order to achieve a rolling take-off for Paparazzi simulator.</en>
+    </descr_long>
+    <descr_short>
+      <en>default</en>
+    </descr_short>
+  </graphics>
+  <wheels version="1" units="0">
+    <wheel percent_brake="0.5" caster_angle_rad="0">
+      <pos x="0.3" y="0" z="0.3" />
+      <spring constant="35" damping="0.15" max_force="25.0" />
+    </wheel>
+    <wheel percent_brake="0.5" caster_angle_rad="0">
+      <pos x="-0.2" y="1" z="0.3" />
+      <spring constant="35" damping="0.15" max_force="25.0" />
+    </wheel>
+    <wheel percent_brake="0.5" caster_angle_rad="0">
+      <pos x="-0.2" y="-1" z="0.3" />
+      <spring constant="35" damping="0.15" max_force="25.0" />
+    </wheel>
+  </wheels>
+  <launch>
+    <preset name_en="Paparazzi wait (ground)" altitude="0" velocity_rel="0" angle="0" sal="0" rel_to_player="1" rel_front="21" rel_right="0" />
+  </launch>  
+</CRRCSim_airplane>

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+
+<crrcsimSceneryFile version="3">
+  
+  <!-- Some general information -->
+  <name>Davis Field</name>
+  <categories>
+    <category>Field</category>
+  </categories>
+  <description>
+    <en>The CRRC's home base at Davis, using the original
+        hard-coded rendering.</en>
+  </description>
+  <changelog>
+    <change>
+      <date>2006-06-10</date>
+      <author>Jan Reucker (slowhand_47@gmx.de)</author>
+      <en>Created.</en>
+    </change>
+  </changelog>
+  
+  <!-- Player position. You may specify multiple <position>s. -->
+  <views>
+    <position name="default" north="0" east ="0" height="6"  />
+  </views>
+  
+  <!-- Starting position for the model. -->
+  <start>
+    <position name="field" north="0" east ="18"  />
+  </start>
+
+   
+  <!-- Default settings -->
+  <default>
+    <wind velocity="3" direction="180" />
+  </default>
+
+  <preview filename="textures/davis_preview.jpg" />
+<!-- A sky dome, original style, textured -->
+  <!--
+  <sky type="original" texture="textures/clouds.rgb" radius="10000" />
+  -->
+  
+  <!-- A sky dome, original style, untextured -->
+  <!--
+  <sky type="original" />
+  -->
+
+  <!-- A sky box. -->
+  <sky type="box" size="5.0">
+    <textures>
+      <north filename="textures/skybox_n.rgb" />
+      <south filename="textures/skybox_s.rgb" />
+      <west  filename="textures/skybox_w.rgb" />
+      <east  filename="textures/skybox_e.rgb" />
+      <up    filename="textures/skybox_u.rgb" />
+      <down  filename="" />
+    </textures>
+  </sky>
+
+  <!-- Scenery graphics: render the original DAVIS scenery -->
+  <scene type="built-in" variant="DAVIS">
+    <textures>
+      <ground file="textures/terrain.bw" />
+      <grass file="textures/grass.rgb" />
+      <grasss file="textures/grass_side.rgb" />
+      <grasst file="textures/grass_top.rgb" />
+      <eastern file="textures/eastern_view.rgb" />
+      <netrees file="textures/netrees.rgb" />
+      <dirt file="textures/dirt.rgb" />
+      <outhouse file="textures/outhouse.rgb" />
+      <freq file="textures/freqboard.rgb" />
+      <pine file="textures/pinetrees.rgb" />
+      <decid file="textures/decid.rgb" />
+    </textures>
+  </scene>
+
+</crrcsimSceneryFile>
+

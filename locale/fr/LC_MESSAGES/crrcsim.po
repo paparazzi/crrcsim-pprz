@@ -1,0 +1,921 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: crrcsim\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-20 13:01+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: JLienard <joel.lienard@laposte.net>\n"
+"Language-Team:  <joel.lienard@laposte.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ../../../src\n"
+"X-Poedit-KeywordsList: _;_X\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: SimStateHandler.cpp:146
+msgid "Resuming."
+msgstr "Reprise."
+
+#: SimStateHandler.cpp:169
+msgid ""
+"Simulation paused.\n"
+"Press <p> again to resume."
+msgstr ""
+"Simulation en pause.\n"
+"Taper <p> pour continuer."
+
+#: SimStateHandler.cpp:207
+msgid "Simulation reset."
+msgstr "Simulation réinitialisée."
+
+#: SimStateHandler.cpp:235
+msgid "Plane crashed."
+msgstr "Avion cassé."
+
+#: crrc_keyboard.cpp:115
+msgid "Training mode is ON, thermals are visible."
+msgstr "Mode d'entrainement, les thermiques sont visualisés."
+
+#: crrc_keyboard.cpp:120
+msgid "Training mode is OFF."
+msgstr "Mode d'entrainement arrêté."
+
+#: crrc_keyboard.cpp:249
+msgid "Reloading parameters"
+msgstr "Rechargement des paramètres"
+
+#: crrc_keyboard.cpp:253
+msgid "Reloading parameters: error"
+msgstr "Rechargement des paramètres : erreur"
+
+#: crrc_main.cpp:318
+msgid "Failed to initialize selected input method.\n"
+msgstr "Erreur à l'initialisation de la méthode de commande sélectionnée.\n"
+
+#: crrc_main.cpp:321
+msgid "Reverting to mouse input."
+msgstr "Retour à la commande par la souris"
+
+#: mouse_kbd.cpp:204
+msgid "No Joysticks found\n"
+msgstr "Aucun joystick trouvé\n"
+
+#: mouse_kbd.cpp:241
+msgid "nothing"
+msgstr "aucun"
+
+#: mouse_kbd.cpp:242
+msgid "Aileron"
+msgstr "Aileron"
+
+#: mouse_kbd.cpp:243
+msgid "Elevator"
+msgstr "Profondeur"
+
+#: mouse_kbd.cpp:244
+msgid "Rudder"
+msgstr "Direction"
+
+#: mouse_kbd.cpp:245
+msgid "Throttle"
+msgstr "Gaz"
+
+#: mouse_kbd.cpp:246
+msgid "Flap"
+msgstr "Cambrure"
+
+#: mouse_kbd.cpp:247
+msgid "Spoiler"
+msgstr "Spoiler"
+
+#: mouse_kbd.cpp:248
+msgid "Retract"
+msgstr "Relever le train"
+
+#: mouse_kbd.cpp:249
+msgid "Pitch"
+msgstr "Pas"
+
+#: mouse_kbd.cpp:274
+msgid "Keyboard"
+msgstr "Clavier"
+
+#: mouse_kbd.cpp:275
+msgid "Mouse"
+msgstr "Souris"
+
+#: mouse_kbd.cpp:276
+msgid "Joystick"
+msgstr "Manette de jeu"
+
+#: mouse_kbd.cpp:277
+msgid "RCTran"
+msgstr ""
+
+#: mouse_kbd.cpp:278
+msgid "Audio"
+msgstr "Audio"
+
+#: mouse_kbd.cpp:279
+msgid "Parallel"
+msgstr "Parallèle"
+
+#: mouse_kbd.cpp:304
+msgid "Nothing"
+msgstr "Aucun"
+
+#: mouse_kbd.cpp:305
+msgid "Resume"
+msgstr "Reprise"
+
+#: mouse_kbd.cpp:306
+msgid "Pause"
+msgstr "Pause"
+
+#: mouse_kbd.cpp:307
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: mouse_kbd.cpp:308
+msgid "Inc Throttle"
+msgstr "Augmente les gaz"
+
+#: mouse_kbd.cpp:309
+msgid "Dec Throttle"
+msgstr "Diminue les gaz"
+
+#: mouse_kbd.cpp:310
+msgid "Zoom In"
+msgstr "Zoom +"
+
+#: mouse_kbd.cpp:311
+msgid "Zoom Out"
+msgstr "Zoom -"
+
+#: mouse_kbd.cpp:325
+msgid "Mixer"
+msgstr "Mélangeur"
+
+#: mod_video/airplane_vis.cpp:325
+msgid "Loaded model "
+msgstr "Modèle chargé "
+
+#: mod_video/crrc_graphics.cpp:1256
+msgid "CRRCsim successfully started!"
+msgstr "CRRCSim démarré avec succès."
+
+#: mod_video/crrc_graphics.cpp:1257
+msgid "Press <ESC> to show the setup menu."
+msgstr "Taper la touche <Esc> pour afficher le menu"
+
+#: GUI/crrc_scaleinput.cpp:59
+msgid "Hit tab or return after editing a value. Also see documentation/options.txt"
+msgstr "Taper \"tab\" ou \"Entrée\" après l'édition d'une valeur. Voir aussi \"documentation/options.txt\""
+
+#: GUI/crrc_scaleinput.cpp:66
+msgid "Dual-rate enable"
+msgstr "Active le petit débattement"
+
+#: GUI/crrc_scaleinput.cpp:84
+msgid "Trim/Offset"
+msgstr "Trim/Offset"
+
+#: GUI/crrc_scaleinput.cpp:85
+msgid "Normal rate"
+msgstr "Normal"
+
+#: GUI/crrc_scaleinput.cpp:86
+msgid "Slow rate"
+msgstr "Petit"
+
+#: GUI/crrc_scaleinput.cpp:87
+msgid "Exp"
+msgstr "Exp"
+
+#: GUI/crrc_scaleinput.cpp:164
+msgid "-Travel"
+msgstr "-Course"
+
+#: GUI/crrc_scaleinput.cpp:179
+msgid "+Travel"
+msgstr "+Course"
+
+#: GUI/crrc_scaleinput.cpp:232
+#: GUI/crrc_scaleinput.cpp:307
+msgid "Enable"
+msgstr "Valider"
+
+#: GUI/crrc_scaleinput.cpp:233
+msgid "Source"
+msgstr "Source"
+
+#: GUI/crrc_scaleinput.cpp:234
+msgid "Mixing rate"
+msgstr "Valeur "
+
+#: GUI/crrc_scaleinput.cpp:235
+msgid "Destination"
+msgstr "Destination"
+
+#: GUI/crrc_gui_viewwind.cpp:72
+msgid "Mode 1 (geom based)"
+msgstr ""
+
+#: GUI/crrc_gui_viewwind.cpp:73
+msgid "Mode 2 (CFD based)"
+msgstr ""
+
+#: GUI/crrc_gui_viewwind.cpp:77
+msgid "In-plane velocity"
+msgstr "Vitesse horizontale"
+
+#: GUI/crrc_gui_viewwind.cpp:78
+msgid "Vertical velocity"
+msgstr "Vitesse verticale"
+
+#: GUI/crrc_gui_viewwind.cpp:102
+msgid "Vert. offset"
+msgstr "Décalage vertical"
+
+#: GUI/crrc_gui_viewwind.cpp:117
+msgid "Horiz. offset"
+msgstr "Décalage horiz."
+
+#: GUI/crrc_gui_viewwind.cpp:132
+msgid "Zoom width"
+msgstr "Zoom -"
+
+#: GUI/crrc_gui_viewwind.cpp:147
+msgid "Position (left<->right)"
+msgstr "Position (gauche<->droite)"
+
+#: GUI/crrc_gui_viewwind.cpp:162
+msgid "Direction (degrees)"
+msgstr "Orientation [degrés]"
+
+#: GUI/crrc_gui_viewwind.cpp:178
+msgid "Color mode"
+msgstr "Coloration"
+
+#: GUI/crrc_gui_viewwind.cpp:191
+msgid "Wind mode"
+msgstr "Modèle de vent"
+
+#: GUI/crrc_gui_main.cpp:121
+msgid "Exit"
+msgstr "Quitter"
+
+#: GUI/crrc_gui_main.cpp:121
+msgid "Save this Flight's Log as.."
+msgstr "Sauvegarder cet enregistrement de vol..."
+
+#: GUI/crrc_gui_main.cpp:121
+msgid "Save Settings"
+msgstr "Sauvegarder la configuration"
+
+#: GUI/crrc_gui_main.cpp:125
+msgid "Inspect Wind"
+msgstr "Inspecter le vent"
+
+#: GUI/crrc_gui_main.cpp:126
+msgid "Reset Zoom"
+msgstr "Réinitialiser le Zoom"
+
+#: GUI/crrc_gui_main.cpp:126
+msgid "Zoom -"
+msgstr "Zoom -"
+
+#: GUI/crrc_gui_main.cpp:127
+msgid "Zoom +"
+msgstr "Zoom +"
+
+#: GUI/crrc_gui_main.cpp:127
+msgid "Toggle Verbosity"
+msgstr "Change les informations affichées"
+
+#: GUI/crrc_gui_main.cpp:128
+msgid "Toggle HUD Compass"
+msgstr "(dé)Valide le compas "
+
+#: GUI/crrc_gui_main.cpp:129
+msgid "Toggle Test Mode"
+msgstr "Test Mode"
+
+#: GUI/crrc_gui_main.cpp:130
+msgid "Toggle Training Mode"
+msgstr "Visualisation des thermiques"
+
+#: GUI/crrc_gui_main.cpp:131
+msgid "Toggle Fullscreen"
+msgstr "Plein écran"
+
+#: GUI/crrc_gui_main.cpp:142
+msgid "Restart"
+msgstr "Redémarrer"
+
+#: GUI/crrc_gui_main.cpp:147
+msgid "Controls"
+msgstr "Contrôles"
+
+#: GUI/crrc_gui_main.cpp:148
+msgid "Video"
+msgstr "Vidéo"
+
+#: GUI/crrc_gui_main.cpp:148
+msgid "Wind, Thermals"
+msgstr "Vent et thermiques"
+
+#: GUI/crrc_gui_main.cpp:149
+msgid "Launch"
+msgstr "Lancement"
+
+#: GUI/crrc_gui_main.cpp:149
+msgid "Location"
+msgstr "Site"
+
+#: GUI/crrc_gui_main.cpp:150
+msgid "Airplane"
+msgstr "Avion"
+
+#: GUI/crrc_gui_main.cpp:162
+msgid "About"
+msgstr "A propos"
+
+#: GUI/crrc_gui_main.cpp:162
+msgid "Keys"
+msgstr "Raccourcis clavier"
+
+#: GUI/crrc_gui_main.cpp:162
+#: GUI/crrc_gui_main.cpp:177
+msgid "Help"
+msgstr "Aide"
+
+#: GUI/crrc_gui_main.cpp:166
+msgid "Remove all Robots"
+msgstr "Enlever les robots"
+
+#: GUI/crrc_gui_main.cpp:166
+msgid "Load Robot"
+msgstr "Charger un robot"
+
+#: GUI/crrc_gui_main.cpp:171
+msgid "File"
+msgstr "Fichier"
+
+#: GUI/crrc_gui_main.cpp:172
+msgid "View"
+msgstr "Voir"
+
+#: GUI/crrc_gui_main.cpp:173
+msgid "Simulation"
+msgstr "Simulation"
+
+#: GUI/crrc_gui_main.cpp:174
+msgid "Options"
+msgstr "Options"
+
+#: GUI/crrc_gui_main.cpp:175
+msgid "Game"
+msgstr "Jeu"
+
+#: GUI/crrc_gui_main.cpp:176
+msgid "Robots"
+msgstr "Robots"
+
+#: GUI/crrc_gui_main.cpp:276
+msgid "Press <ESC> to hide menu and resume simulation."
+msgstr ""
+"Taper <Esc> pour cacher le menu et reprendre\n"
+" la simulation"
+
+#: GUI/crrc_gui_main.cpp:650
+msgid "Configuration has changed, save?"
+msgstr "La configuration a été modifiée. Enregistrer ?"
+
+#: GUI/crrc_gui_main.cpp:653
+msgid "Yes"
+msgstr "Oui"
+
+#: GUI/crrc_gui_main.cpp:654
+msgid "No"
+msgstr "Non"
+
+#: GUI/crrc_gui_main.cpp:744
+msgid ""
+"See http://crrcsim.sourceforge.net/ for more information.\n"
+"\n"
+"With your copy of CRRCSim you also received documentation\n"
+"in a subdirectory named \"documentation\". Take a look at \"index.html\"."
+msgstr ""
+"Voir http://crrcsim.sourceforge.net/ pour plus d'information.\n"
+"\n"
+"Avec votre copie de CRRCSim vous avez reçu une documentation\n"
+"dans le sous répertoire nommé  \"documentation\". Regarder  \"index.html\"."
+
+#: GUI/crrc_gui_main.cpp:751
+msgid "Key mapping:\n"
+msgstr "Raccourcis clavier:\n"
+
+#: GUI/crrc_gui_main.cpp:753
+msgid "show/hide menu\n"
+msgstr "montrer ou cacher le menu\n"
+
+#: GUI/crrc_gui_main.cpp:754
+msgid "quit\n"
+msgstr "quitter\n"
+
+#: GUI/crrc_gui_main.cpp:755
+msgid "restarts after crash\n"
+msgstr "relance après un crash\n"
+
+#: GUI/crrc_gui_main.cpp:756
+msgid "pause/resume simulation\n"
+msgstr "pause/continue la simulation\n"
+
+#: GUI/crrc_gui_main.cpp:757
+msgid "reload model configuration\n"
+msgstr "recharge la configuration du modèle\n"
+
+#: GUI/crrc_gui_main.cpp:758
+msgid "toggle control input debugging mode\n"
+msgstr "met(enlève) le mode de vérification des entrées de commandes\n"
+
+#: GUI/crrc_gui_main.cpp:759
+msgid "toggle training mode which displays the location of the thermals\n"
+msgstr "montre(cache) les emplacements des thermiques\n"
+
+#: GUI/crrc_gui_main.cpp:760
+msgid "toggle verbosity level (0..3) to display control inputs/FOV/FPS\n"
+msgstr "modifie les informations affichées en bas de l'écran\n"
+
+#: GUI/crrc_gui_main.cpp:761
+msgid "toggle HUD compass visualisation mode\n"
+msgstr "met(enlève) l'affichage du compas \"tête haute\"\n"
+
+#: GUI/crrc_gui_main.cpp:762
+msgid "toggle landing gear (if function is not mapped to a controller)\n"
+msgstr "met(enlève) le train atterrissage (si fonction non attribuée à une entrée)\n"
+
+#: GUI/crrc_gui_main.cpp:763
+msgid "toggle spoiler/airbrake (if function is not mapped to a controller)\n"
+msgstr "met(enlève) le spoiler/aéro-frein (si fonction non attribuée à une entrée)\n"
+
+#: GUI/crrc_gui_main.cpp:764
+msgid "increase throttle (if you aren't using JOYSTICK or better)\n"
+msgstr "augmente les gaz (si vous n'utilisez pas le joystick ou autre)\n"
+
+#: GUI/crrc_gui_main.cpp:765
+msgid "decrease throttle (if you aren't using JOYSTICK or better)\n"
+msgstr "diminue les gaz (si vous n'utilisez pas le joystick ou autre)\n"
+
+#: GUI/crrc_gui_main.cpp:766
+msgid "left/right arrow "
+msgstr "flèches gauche/droit "
+
+#: GUI/crrc_gui_main.cpp:766
+msgid "rudder\n"
+msgstr "direction\n"
+
+#: GUI/crrc_gui_main.cpp:767
+msgid "up/down arrow    "
+msgstr "flèches haut/bas  "
+
+#: GUI/crrc_gui_main.cpp:767
+msgid "elevator\n"
+msgstr "profondeur\n"
+
+#: GUI/crrc_gui_main.cpp:768
+msgid "zoom in (assuming zoom.control is KEYBOARD)\n"
+msgstr "zoom  +  \n"
+
+#: GUI/crrc_gui_main.cpp:769
+msgid "zoom out (assuming zoom.control is KEYBOARD)\n"
+msgstr "zoom -  (si le contrôle du  zoom est le clavier)\n"
+
+#: GUI/crrc_gui_main.cpp:804
+msgid "Please save your configuration and restart CRRCSim!"
+msgstr "S.V.P. enregistez votre configuration et relancez CRRCSim !"
+
+#: GUI/crrc_joy.cpp:59
+msgid "Hit a button, then choose a function and bind..."
+msgstr "Actionner un bouton et choisir une fonction à associer"
+
+#: GUI/crrc_joy.cpp:66
+msgid "Press some button!"
+msgstr "Actionner un bouton"
+
+#: GUI/crrc_joy.cpp:71
+msgid "Bind Button"
+msgstr "Associer le bouton"
+
+#: GUI/crrc_joy.cpp:129
+msgid "Please press button first!"
+msgstr "Actionner tout d'abord un bouton  !"
+
+#: GUI/crrc_joy.cpp:143
+msgid "Button "
+msgstr "Bouton"
+
+#: GUI/crrc_f3f.cpp:145
+msgid "Sounds file directory"
+msgstr "Répertoire des fichiers de son"
+
+#: GUI/crrc_f3f.cpp:158
+msgid "Extend bases to the top"
+msgstr "Etendre les bases vers le haut"
+
+#: GUI/crrc_f3f.cpp:168
+msgid "Start on the left"
+msgstr "Départ sur la gauche"
+
+#: GUI/crrc_f3f.cpp:178
+msgid "Security_line position [ft]"
+msgstr "Position de la ligne de sécurité [ft]"
+
+#: GUI/crrc_f3f.cpp:191
+msgid "Distance between bases [ft]"
+msgstr "Distance entre les bases [ft]"
+
+#: GUI/crrc_f3f.cpp:204
+msgid "Orientation [degrees]"
+msgstr "Orientation [degrés]"
+
+#: GUI/crrc_f3f.cpp:217
+msgid "Center position Nord [ft]"
+msgstr "Position du centre, Nord [ft]"
+
+#: GUI/crrc_f3f.cpp:230
+msgid "Center position East [ft]"
+msgstr "Position du centre, Est [ft]"
+
+#: GUI/crrc_f3f.cpp:258
+msgid "Enable F3F mode"
+msgstr "Valider le mode F3F"
+
+#: GUI/crrc_windthermal.cpp:82
+#: GUI/crrc_windthermal.cpp:127
+#: GUI/crrc_launch.cpp:235
+msgid "Load Preset"
+msgstr "Charger un préréglage"
+
+#: GUI/crrc_windthermal.cpp:93
+msgid "Velocity [ft/s]"
+msgstr "Vitesse [ft/s]"
+
+#: GUI/crrc_windthermal.cpp:104
+msgid "Direction"
+msgstr "Direction"
+
+#: GUI/crrc_windthermal.cpp:115
+#: GUI/crrc_windthermal.cpp:213
+#: GUI/crrc_launch.cpp:110
+msgid "Name of new preset"
+msgstr "Nom du nouveau préréglage"
+
+#: GUI/crrc_windthermal.cpp:119
+#: GUI/crrc_windthermal.cpp:217
+#: GUI/crrc_launch.cpp:114
+msgid "Save as new preset"
+msgstr "Sauvegarde un nouveau préréglage"
+
+#: GUI/crrc_windthermal.cpp:138
+msgid "Strength mean [ft/s]"
+msgstr "Force moyenne  [ft/s]"
+
+#: GUI/crrc_windthermal.cpp:149
+msgid "Strength sigma"
+msgstr "Ecart-type de la force"
+
+#: GUI/crrc_windthermal.cpp:160
+msgid "Radius mean [ft]"
+msgstr "Rayon moyen [ft]"
+
+#: GUI/crrc_windthermal.cpp:171
+msgid "Radius sigma"
+msgstr "Ecart-type du rayon"
+
+#: GUI/crrc_windthermal.cpp:182
+msgid "Lifetime mean [seconds]"
+msgstr "Durée de vie [s]"
+
+#: GUI/crrc_windthermal.cpp:193
+msgid "Lifetime sigma"
+msgstr "Ecart-type de la durée de vie"
+
+#: GUI/crrc_windthermal.cpp:204
+msgid "Density [1/sq foot]"
+msgstr "Densité [1/sq foot]"
+
+#: GUI/crrc_calibmap.cpp:131
+msgid "Inv"
+msgstr "Inv."
+
+#: GUI/crrc_calibmap.cpp:153
+msgid "Radio type"
+msgstr "Type de radio"
+
+#: GUI/crrc_calibmap.cpp:200
+#: GUI/crrc_calibmap.cpp:390
+msgid "Calibrate"
+msgstr "Calibration"
+
+#: GUI/crrc_calibmap.cpp:396
+msgid "Next"
+msgstr "Suivant"
+
+#: GUI/crrc_calibmap.cpp:397
+msgid "Move controls to all extents!"
+msgstr "Bouger les manches jusqu'à toutes les extrémités !"
+
+#: GUI/crrc_calibmap.cpp:402
+msgid "Finish"
+msgstr "Fini"
+
+#: GUI/crrc_calibmap.cpp:403
+msgid "Now center all controls!"
+msgstr "Maintenant, mettre tout au centre"
+
+#: GUI/crrc_dialog.cpp:108
+msgid "OK"
+msgstr "OK"
+
+#: GUI/crrc_dialog.cpp:119
+msgid "Cancel"
+msgstr "Annuler"
+
+#: GUI/crrc_audio.cpp:52
+msgid "Off"
+msgstr "Désactivé"
+
+#: GUI/crrc_audio.cpp:52
+msgid "On"
+msgstr "Activé"
+
+#: GUI/crrc_audio.cpp:52
+msgid "Always on"
+msgstr "Toujours actif"
+
+#: GUI/crrc_audio.cpp:64
+msgid "Sample Rate"
+msgstr "Fréquence d'échantillonnage"
+
+#: GUI/crrc_audio.cpp:86
+msgid "Engine sound"
+msgstr "Son du moteur"
+
+#: GUI/crrc_audio.cpp:96
+msgid "Variometer volume"
+msgstr "Volume du variomètre"
+
+#: GUI/crrc_audio.cpp:109
+msgid "Model volume"
+msgstr "Volume du bruit du modèle"
+
+#: GUI/crrc_setrecordname.cpp:64
+msgid ""
+"Both filename and description become effective when the flight log is finally closed (on flight reset, change of airplane/location, exit).\n"
+"Without a name, the log will not be saved!\n"
+"Your best F3F runs are named (and therefore saved) automatically.\n"
+"Replay flight logs using 'Robots | Load Robot'."
+msgstr ""
+"Le nom de fichier ainsi que la description prennent effet quand le journal de vol est finalement fermé (par \"Redémarrer\", ou par changement de site ou d'avion) .\n"
+"Sans un nom, le journal ne sera pas sauvé ! \n"
+"Vos meilleures courses de F3F sont nommées et sauvées automatiquement. \n"
+"Pour rejouer les journaux de vol utilisez le menu \"Robots | charger un Robot '."
+
+#: GUI/crrc_setrecordname.cpp:75
+msgid "Filename:"
+msgstr "Nom du fichier : "
+
+#: GUI/crrc_setrecordname.cpp:87
+msgid "Description:"
+msgstr "Description :"
+
+#: GUI/crrc_loadrobot.cpp:71
+msgid "Load as demo, replacing user input"
+msgstr "Charge en mode démonstration "
+
+#: GUI/crrc_loadrobot.cpp:81
+msgid ""
+"In case you check the box above, this robot will replace your manually controlled airplane.\n"
+"Load an airplane to regain manual control."
+msgstr ""
+"Si vous cochez la case ci-dessus, ce robot remplace l'avion que vous contrôliez manuellement.\n"
+"Charger ensuite un avion pour reprendre le contrôle manuellement."
+
+#: GUI/crrc_loadrobot.cpp:93
+msgid "Select file:"
+msgstr "Sélectionner un fichier :"
+
+#: GUI/crrc_loadrobot.cpp:107
+msgid "This is a short description of the selected record."
+msgstr "Courte description de l'enregistrement sélectionné"
+
+#: GUI/crrc_ctrldev.cpp:67
+msgid "Input Method"
+msgstr "Méthode de commande"
+
+#: GUI/crrc_ctrldev.cpp:85
+msgid "Device"
+msgstr "Dispositif"
+
+#: GUI/crrc_ctrldev.cpp:96
+msgid "Baudrate / Sync"
+msgstr "Baudrate / Sync"
+
+#: GUI/crrc_planesel.cpp:116
+msgid "Load launch default"
+msgstr "Charge la configuration de lancement par défaut"
+
+#: GUI/crrc_planesel.cpp:126
+msgid "Select graphics:"
+msgstr "Choisir un graphisme"
+
+#: GUI/crrc_planesel.cpp:137
+msgid "Select config:"
+msgstr "Configuration sélectionnée : "
+
+#: GUI/crrc_planesel.cpp:146
+msgid "Select airplane:"
+msgstr "Choisir un avion :"
+
+#: GUI/crrc_planesel.cpp:155
+msgid "Preview:"
+msgstr "Prévisualisation :"
+
+#: GUI/crrc_planesel.cpp:164
+msgid "Select category:"
+msgstr "Choisir une catégorie :"
+
+#: GUI/crrc_planesel.cpp:574
+msgid "File: "
+msgstr "Fichier: "
+
+#: GUI/crrc_mousebutton.cpp:52
+msgid "Left"
+msgstr "Gauche"
+
+#: GUI/crrc_mousebutton.cpp:59
+msgid "Middle"
+msgstr "Centrale"
+
+#: GUI/crrc_mousebutton.cpp:66
+msgid "Right"
+msgstr "Droit"
+
+#: GUI/crrc_mousebutton.cpp:73
+msgid "Wheel up"
+msgstr "Roulette vers le haut"
+
+#: GUI/crrc_mousebutton.cpp:80
+msgid "Wheel down"
+msgstr "Roulette vers le bas"
+
+#: GUI/crrc_video.cpp:80
+msgid "Resolution"
+msgstr "Résolution"
+
+#: GUI/crrc_video.cpp:91
+msgid "Fullscreen"
+msgstr "Plein écran"
+
+#: GUI/crrc_video.cpp:107
+msgid "Autozoom"
+msgstr "Zoom automatique"
+
+#: GUI/crrc_video.cpp:123
+msgid "FPS limit"
+msgstr "Fréquence trame maximum"
+
+#: GUI/crrc_video.cpp:138
+msgid "Skybox fix"
+msgstr "Correction des raccords"
+
+#: GUI/crrc_video.cpp:151
+msgid "Sloppy camera"
+msgstr "Caméra flottante"
+
+#: GUI/crrc_ctrlgen.cpp:112
+msgid "Configure..."
+msgstr "Configure..."
+
+#: GUI/crrc_ctrlgen.cpp:121
+msgid "Mixer..."
+msgstr "Mélangeur..."
+
+#: GUI/crrc_ctrlgen.cpp:130
+msgid "Buttons..."
+msgstr "Boutons..."
+
+#: GUI/crrc_ctrlgen.cpp:139
+msgid "Input Method..."
+msgstr "Méthode de commande..."
+
+#: GUI/crrc_ctrlgen.cpp:150
+msgid "Zoom Control"
+msgstr "Contrôle du zoom"
+
+#: GUI/crrc_ctrlgen.cpp:181
+msgid "Input Method: "
+msgstr "Méthode de commande: "
+
+#: GUI/crrc_launch.cpp:134
+msgid "Launch from start"
+msgstr "Lance depuis un départ"
+
+#: GUI/crrc_launch.cpp:145
+msgid "Relative right position"
+msgstr "Position relative droite"
+
+#: GUI/crrc_launch.cpp:158
+msgid "Relative front position"
+msgstr "Position relative avant"
+
+#: GUI/crrc_launch.cpp:171
+msgid "Launch from player"
+msgstr "Lance depuis le pilote"
+
+#: GUI/crrc_launch.cpp:183
+msgid "Vertical angle [rad]"
+msgstr "Angle vertical [rad]"
+
+#: GUI/crrc_launch.cpp:196
+msgid "Simulate SAL"
+msgstr "Lancé par le saumon"
+
+#: GUI/crrc_launch.cpp:204
+msgid "Relative velocity"
+msgstr "Vitesse relative"
+
+#: GUI/crrc_launch.cpp:222
+msgid "Altitude [ft]"
+msgstr "Altitude [ft]"
+
+#: GUI/crrc_location.cpp:171
+msgid "Select location:"
+msgstr "Choisir un site :"
+
+#: GUI/crrc_location.cpp:189
+msgid "Select sky or resolution:"
+msgstr "Choisir un ciel ou une résolution :"
+
+#: GUI/crrc_location.cpp:292
+msgid "No description available."
+msgstr "Description inexistante."
+
+#: mod_landscape/crrc_scenery.cpp:63
+msgid "Scenery loading..."
+msgstr "Chargement du paysage..."
+
+#~ msgid ""
+#~ "Key mapping:\n"
+#~ "\n"
+#~ "ESC    show/hide menu\n"
+#~ "q      quit\n"
+#~ "r      restarts after crash\n"
+#~ "p      pause/resume simulation\n"
+#~ "c      reload model configuration\n"
+#~ "d      toggle control input debugging mode\n"
+#~ "t      toggle training mode which displays the location of the thermals\n"
+#~ "v      toggle verbosity level (0..3) to display control inputs/FOV/FPS\n"
+#~ "h      toggle HUD compass visualisation mode\n"
+#~ "g      toggle landing gear (if function is not mapped to a controller)\n"
+#~ "b      toggle spoiler/airbrake (if function is not mapped to a "
+#~ "controller)\n"
+#~ "pg-up  increase throttle (if you aren't using JOYSTICK or better)\n"
+#~ "pg-dwn decrease throttle (if you aren't using JOYSTICK or better)\n"
+#~ "left/right arrow  left/right rudder\n"
+#~ "up/down arrow     up/down elevator\n"
+#~ "+      zoom in (assuming zoom.control is KEYBOARD)\n"
+#~ "-      zoom out (assuming zoom.control is KEYBOARD)\n"
+#~ "\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Raccourcis clavier:\n"
+#~ "\n"
+#~ "ESC    montrer ou cacher le menu\n"
+#~ "q      quitter\n"
+#~ "r      relance après un crash\n"
+#~ "p      pause/continue la simulation\n"
+#~ "c      recharge la configuration du modèle \n"
+#~ "d      met(enlève) le mode de vérification des entrées de commandes\n"
+#~ "t      montre(cache) les emplacements des thermiques\n"
+#~ "v      modifie les informations affichées en bas de l'écran\n"
+#~ "h      met(enlève) l'affichage du compas \"tête haute\"\n"
+#~ "g      met(enlève) le train atterrissage (si fonction non attribuée à une "
+#~ "entrée)\n"
+#~ "b      met(enlève) le spoiler/aéro-frein (si fonction non attribuée à une "
+#~ "entrée)\n"
+#~ "pg-up   augmente les gaz (si vous n'utilisez pas je joystick ou autre))\n"
+#~ "pg-dwn diminue les gaz (si vous n'utilisez pas je joystick ou autre))\n"
+#~ "flèches gauche/droite  direction gauche/droite\n"
+#~ "flèches haut/bas     haut/bas profondeur\n"
+#~ "+      zoom +  (si le contrôle du  zoom est le clavier)\n"
+#~ "-       zoom  -  \n"
+#~ "\n"
+#~ "\n"
+

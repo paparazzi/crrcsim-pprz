@@ -256,7 +256,7 @@ CONFIGURE_FILE(${CMAKE_CURRENT_SOURCE_DIR}/cmake/config.h.in ${CMAKE_BINARY_DIR}
 
 add_executable (crrcsim WIN32 ${CRRCSIM_SRCS})
 
-target_link_libraries ( crrcsim ${CRRCSIM_LIBS} boost_thread)
+target_link_libraries ( crrcsim ${CRRCSIM_LIBS} boost_thread gmp)
 
 
 message("")
